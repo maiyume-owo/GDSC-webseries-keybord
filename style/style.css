@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 10%;
 }
 
 #logotext{
@@ -63,14 +63,16 @@ a {
     font-size: 25px;
     overflow: hidden;
     position: relative;
-    padding-right: 5%;
-    padding-bottom: 7%;
-    padding-top: 5%;
+    padding: 10%;
+
+    
 }
-
-
-
-
+#random-text{
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
   .container {
     display: flex;
     justify-content: center;
@@ -177,7 +179,7 @@ a {
   }
   
   .keys.remove {
-      animation: keys_animation 0.1s forwards ;
+      animation: keys_animation 0.3s backwards ;
   }
   
   @keyframes keys_animation {
@@ -190,4 +192,3 @@ a {
           color: #6e4454;
       }
   }
-
